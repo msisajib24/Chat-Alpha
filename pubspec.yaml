@@ -1,1 +1,19 @@
 
+name: chat_alpha
+description: A WhatsApp-style chat app using Flutter, Supabase, and Cloudinary.
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^1.10.9
+  image_picker: ^1.0.4
+  http: ^0.13.5
+  file_picker: ^6.1.1
+  path: any
+  uuid: ^3.0.7
+
+flutter:
+  uses-material-design: true
